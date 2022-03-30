@@ -6,6 +6,7 @@
     text-align: right;
     display: block;
     font-size: 24px;
+    justify-content: right;
 }
 
 header {
@@ -15,6 +16,8 @@ header {
     width: 100%;
     line-height: 60px;
     background-color: #2aefcb;
+    justify-content: center;
+    
 }
 
 header h1 {
@@ -28,11 +31,21 @@ h2 {
 
 .section-area {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 img {
     height: 550px;
     width: 300px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 300px;
+    width: 550px;
+    box-sizing: border-box;
 }
