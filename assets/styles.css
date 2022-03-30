@@ -49,3 +49,9 @@ img {
     width: 550px;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 992px) {
+    body {
+        width: 100%;
+    }
+}
