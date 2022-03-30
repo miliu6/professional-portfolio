@@ -4,22 +4,35 @@
 
 .text-right {
     text-align: right;
-}
-
-li {
-    display: inline;
-    padding: 20px;
+    display: block;
+    font-size: 24px;
 }
 
 header {
-    position: fixed;
+    display: flex;
+    /* position: fixed; */
     height: 60px;
     width: 100%;
     line-height: 60px;
     background-color: #2aefcb;
-    display: inline-flexbox;
 }
 
-h1 {
-    
+header h1 {
+    margin-left: 20px;
+    display: flex;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.section-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 550px;
+    width: 300px;
 }
